@@ -13,13 +13,18 @@ body{
 #main{
     position: relative;
     background-color: hsl(217, 19%, 24%);
-    min-height: 200px;
-    min-width: 300px;
+    min-height: 100px;
+    max-width: 450px;
     padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 15px;
+}
+#main_advice{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
 }
 #main_advice-number{
     color: hsl(150, 100%, 66%);
@@ -44,8 +49,15 @@ body{
 #main_button:hover{
     box-shadow: 0 0 40px 0px hsl(150, 100%, 66%);
 }
+#main_button:active{
+    background-color: hsl(217, 19%, 100%);
+}
+#main_divider-line{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 #footer{
-    font-size: 14px;
+    font-size: 12px;
     justify-self: flex-end;
     position: absolute;
     bottom: 10px;

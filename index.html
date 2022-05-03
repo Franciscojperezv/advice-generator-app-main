@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Advice generator app</title>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Manrope&display=swap" rel="stylesheet">
-
+  <script src="script.js" async></script>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 <body>
@@ -17,9 +17,12 @@
       Advice #<!-- Advice ID goes here -->
     </div>
     <div id="main_advice">
-      "This is the advice section<!-- Advice text goes here -->"
+      "This is the advice section. Here you get a piece of advice as you click the button.<!-- Advice text goes here -->"
     </div>
-    <div id="main_button">
+    <div id="main_divider-line">
+      <img src="images\pattern-divider-desktop.svg" alt="break-line">
+    </div>
+    <div id="main_button" onclick="newAdvice()">
       <img src="./images/icon-dice.svg" alt="Button">
     </div>
   </main>
