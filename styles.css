@@ -45,6 +45,7 @@ body{
     justify-self: flex-end;
     position: absolute;
     bottom: -28px;
+    cursor: pointer;
 }
 #main_button:hover{
     box-shadow: 0 0 40px 0px hsl(150, 100%, 66%);
