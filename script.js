@@ -1,4 +1,3 @@
-"strict mode";
 const numAdvice = document.querySelector('#main_advice-number');
 const txtAdvice = document.querySelector('#main_advice_text');
 const myAPI = "https://api.adviceslip.com/advice";
